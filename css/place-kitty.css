@@ -15,7 +15,7 @@
 }
 
 /* Select the image inside the element with an id of basket (using its descendent relationship) */
-#basket {
+#basket img {
   position: absolute;
   z-index: 5;
   top: 291px;
@@ -31,7 +31,7 @@
 }
 
 /* Select the image that has an alt attribute value matching "Kitty 5" (using attribute selector) */
-#f {
+img [alt='Kitty 5'] {
   position: absolute;
   z-index: 3;
   top: 217px;
